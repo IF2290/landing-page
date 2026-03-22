@@ -1,0 +1,75 @@
+
+/* Don't think tht oh i named tht part main hero so it must be called main hero i just named these */
+*{
+    border: 2px solid red;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+.logo{
+    padding-left: 15%;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+.links{
+    padding-right: 15%;
+    display: flex;
+    gap: 5px;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+.hero{
+    background-color: #1F2937;
+}
+.below-header{
+    display: flex;
+    justify-content: space-between;
+}
+.hero-img{
+    width: 500px;
+    height: 200px;
+}
+.hero-main{
+    padding-left: 15%;
+    font-size: 48px;
+    font-family: 900;
+    color: #F9FAF8;
+    flex-grow: 4;
+    padding-right: 5%;
+}
+.hero-pic{
+    display: flex;
+    padding-right: 15%;
+    flex-grow: 5;
+    padding-left: 10%;
+}
+.sign-up-1{
+    border-radius: 5px;
+    color: #E5E7EB;
+    background-color: #3882F6;
+    font-weight: 900;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+}
+.hero-subtext{
+    color: #E5E7EB;
+    font-size: 18px;
+}
+.hero-button{
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
