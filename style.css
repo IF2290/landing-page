@@ -1,8 +1,6 @@
 
 /* Don't think tht oh i named tht part main hero so it must be called main hero i just named these */
-*{
-    border: 2px solid red;
-}
+
 body{
     display: flex;
     flex-direction: column;
@@ -13,10 +11,12 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-bottom: 100px;
 }
 ul{
     display: flex;
     list-style: none;
+    gap: 10px;
 }
 .logo{
     padding-left: 15%;
@@ -26,12 +26,12 @@ ul{
 .links{
     padding-right: 15%;
     display: flex;
-    gap: 5px;
     color: #E5E7EB;
     font-size: 18px;
 }
 .hero{
     background-color: #1F2937;
+    padding-bottom: 120px;
 }
 .below-header{
     display: flex;
@@ -63,6 +63,7 @@ ul{
     width: 100px;
     height: 30px;
     cursor: pointer;
+    border: none;
 }
 .hero-subtext{
     color: #E5E7EB;
@@ -71,5 +72,5 @@ ul{
 .hero-button{
     display: flex;
     align-items: center;
-    margin-top: 5px;
+    margin-top: 10px;
 }
